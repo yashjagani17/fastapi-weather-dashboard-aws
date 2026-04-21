@@ -1,0 +1,10 @@
+services:
+  fastapi:
+    build: .
+    container_name: weather-backend
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+    env_file:
+      - .env

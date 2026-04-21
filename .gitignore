@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
